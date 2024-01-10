@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+//import Call ,{Name} from './Components/Call'
 import reportWebVitals from './reportWebVitals';
+// import { Sample } from './Components/Call';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Call/> */}
   </React.StrictMode>
 );
 
